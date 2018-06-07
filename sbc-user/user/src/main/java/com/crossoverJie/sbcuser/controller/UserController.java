@@ -53,7 +53,7 @@ public class UserController implements UserService {
         OrderNoReq req = new OrderNoReq();
         req.setReqNo("1213");
         //调用远程服务
-        ResponseEntity<Object> res = restTemplate.postForEntity("http://sbc-order/order/getOrderNo", req, Object.class);
+        ResponseEntity<Object> res = new RestTemplate().postForEntity("http://localhost:8888/order/getOrderNo", req, Object.class);
         logger.info("res=" + JSON.toJSONString(res));
 
         logger.debug("入参=" + JSON.toJSONString(userReq));

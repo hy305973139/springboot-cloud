@@ -10,7 +10,8 @@ import org.springframework.context.annotation.Configuration;
 @EnableCircuitBreaker
 @EnableDiscoveryClient
 @SpringBootApplication
-@ComponentScan(value = "com.crossoverJie.sbcorder,com.crossoverjie.distributed.intercept")
+@ComponentScan(value = "com.crossoverJie.sbcorder")
+//@ComponentScan(value = "com.crossoverJie.sbcorder,com.crossoverjie.distributed.intercept")
 public class SbcOrderApplication {
 
 	public static void main(String[] args) {

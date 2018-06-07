@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @Api("用户服务API")
-@RequestMapping(value = "/userService")
+@RequestMapping(value = "/user")
 @Validated
 public interface UserService {
 

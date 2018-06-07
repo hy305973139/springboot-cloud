@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @Api("订单服务API")
-@RequestMapping(value = "/orderService")
+@RequestMapping(value = "/order")
 @Validated
 public interface OrderService {
 
