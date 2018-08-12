@@ -7,7 +7,7 @@
     <artifactId>sbc-user</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <!--aaaaaa-->
+    <!--aaaaaabbbbbbbbbb-->
     <modules>
         <module>user</module>
         <module>user-client</module>
